@@ -1,0 +1,26 @@
+[
+  {
+    "testName": "Valid login1",
+    "email": "tharunsai@gmail.com",
+    "password": "Tharun@5inE",
+    "expected": "success"
+  },
+  {
+    "testName": "Valid login2",
+    "email": "tharunpathuri@gmail.com",
+    "password": "Tharun@5inE",
+    "expected": "success"
+  },
+  {
+    "testName": "Invalid login1",
+    "email": "abcxyz@xyz.com",
+    "password": "abcxyx",
+    "expected": "failure"
+  },
+  {
+    "testName": "Invalid login2",
+    "email": "efghij@xyz.com",
+    "password": "123123",
+    "expected": "failure"
+  }
+]

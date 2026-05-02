@@ -1,0 +1,56 @@
+Exception occurred while clicking on my account: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('span:has-text("My Account")')
+
+    at HomePage.clickOnMyAccount (C:\Users\pathu\opencart.code-workspace\pages\HomePage.ts:36:38)
+    at C:\Users\pathu\opencart.code-workspace\tests\loginddt.spec.ts:21:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\pathu\\opencart.code-workspace\\pages\\HomePage.ts',
+      line: 36,
+      column: 38,
+      function: 'HomePage.clickOnMyAccount'
+    },
+    category: 'pw:api',
+    title: `Click locator('span:has-text("My Account")')`,
+    apiName: 'locator.click',
+    params: {
+      selector: 'span:has-text("My Account")',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@34',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@34',
+      _title: `Click locator('span:has-text("My Account")')`,
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1777643829620,
+    error: {
+      message: 'Error: locator.click: Test timeout of 30000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('span:has-text("My Account")')\x1B[22m\n`,
+      stack: 'Error: locator.click: Test timeout of 30000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('span:has-text("My Account")')\x1B[22m\n` +
+        '\n' +
+        '    at HomePage.clickOnMyAccount (C:\\Users\\pathu\\opencart.code-workspace\\pages\\HomePage.ts:36:38)\n' +
+        '    at C:\\Users\\pathu\\opencart.code-workspace\\tests\\loginddt.spec.ts:21:18',
+      cause: undefined
+    }
+  }
+}
+Exception occurred while clicking on login: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('a:has-text("Login")')
+
+    at HomePage.clickOnLogin (C:\Users\pathu\opencart.code-workspace\pages\HomePage.ts:54:34)
+    at C:\Users\pathu\opencart.code-workspace\tests\loginddt.spec.ts:22:18
