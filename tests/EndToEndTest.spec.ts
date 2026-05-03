@@ -98,7 +98,7 @@ async function performLogout(page: Page) {
 
     // Click "Continue" and verify redirection to HomePage
     const homePage = await logoutPage.clickContinue();
-    expect(await homePage.isHomePageExists()).toBe(true);
+    expect(await homePage.isHomePageExist()).toBe(true);
 }
 
 

@@ -1,7 +1,6 @@
 import{test,expect}from'@playwright/test';
 import { HomePage } from '../pages/HomePage';
 import { LoginPage } from '../pages/LoginPage';
-import { RandomDataUtil } from '../utilities/randomDataGenerator';
 import { TestConfig } from '../test.config.ts';
 import { MyAccountPage } from '../pages/MyAccountPage';
 
