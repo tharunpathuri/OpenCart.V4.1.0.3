@@ -20,7 +20,7 @@ test.afterEach(async ({ page }) => {
     await page.close();
 })
 
-test('User registration test @sanity @regression @master', async ({ page }) => {
+test('User registration test @sanity @regression @main', async ({ page }) => {
 
     await homePage.clickOnMyAccount();
     await homePage.clickOnRegister();

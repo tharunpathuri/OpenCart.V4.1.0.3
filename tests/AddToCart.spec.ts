@@ -1,7 +1,7 @@
 /**
  * Test Case: Add Product to Cart
  * 
- * Tags: @master @regression
+ * Tags: @main @regression
  * 
  * Steps:
  * 1. Navigate to application URL
@@ -40,7 +40,7 @@ test.afterEach(async ({ page }) => {
   await page.close(); // Optional cleanup
 });
 
-test('Add product to cart test @master @regression', async ({ page }) => {
+test('Add product to cart test @main @regression', async ({ page }) => {
   // Step 2: Enter product name in search box
   await homePage.enterProductName(config.productName);
 

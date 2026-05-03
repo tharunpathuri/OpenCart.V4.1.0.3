@@ -1,7 +1,7 @@
 /**
  * Test Case: Product Search
  * 
- * Tags: @master @regression
+ * Tags: @main @regression
  * 
  * Steps:
  * 1) Navigate to the application URL
@@ -35,7 +35,7 @@ test.afterEach(async ({ page }) => {
   await page.close(); // Closes the browser tab after test
 });
 
-test('Product search test @master @regression', async () => {
+test('Product search test @main @regression', async () => {
   const productName = config.productName;
 
   // Step 2 & 3: Enter product name and click Search

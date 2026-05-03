@@ -25,7 +25,7 @@ test.afterEach(async ({ page }) => {
     await page.close();
 })
 
-test('User logout test @master @regression', async ({ page }) => {
+test('User logout test @main @regression', async ({ page }) => {
     await homePage.clickOnMyAccount();
     await homePage.clickOnLogin();
     await login.setEmail(testConfig.email);
