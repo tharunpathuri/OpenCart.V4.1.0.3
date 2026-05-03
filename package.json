@@ -11,7 +11,6 @@
     "test:master:headed": "playwright test --grep @master --headed",
     "test:master:end-to-end": "playwright test --grep @end-to-end --headed",
     "test:sanity:debug": "playwright test --grep @sanity --debug"
-    
   },
   "keywords": [],
   "author": "",
@@ -24,7 +23,6 @@
   },
   "dependencies": {
     "@faker-js/faker": "^10.4.0",
-    "csv-parse": "^6.2.1",
-    "xlsx": "^0.18.5"
+    "csv-parse": "^6.2.1"
   }
 }

@@ -3,7 +3,7 @@ pipeline {
  stages {
  stage('Checkout') {
  steps {
- git 'https://github.com/tharunpathuri/OpenCart.V4.1.0.3.git'
+        git branch: 'main', url: 'https://github.com/tharunpathuri/OpenCart.V4.1.0.3.git'
  }
  }
  stage('Install Dependencies') {
